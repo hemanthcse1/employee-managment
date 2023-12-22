@@ -1,0 +1,48 @@
+### create new user
+POST http://localhost:8080/api/user/create
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "hemanthcse1@gmail.com",
+  "mobile": "1234567890"
+}
+
+### create new user
+POST http://localhost:8080/api/user/create
+Content-Type: application/json
+
+{
+  "firstName": "Hemanth",
+  "lastName": "Kumar",
+  "email": "hemanthcse3@gmail.com",
+  "mobile": "1234567891"
+}
+
+### update user
+PUT http://localhost:8080/api/user/update
+Content-Type: application/json
+
+{
+  "id": 1,
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "hemanthcse2@gmail.com",
+  "mobile": "1234567893"
+}
+
+
+### delete user
+DELETE http://localhost:8080/api/user/delete/1
+Content-Type: application/json
+
+
+### get all users
+GET http://localhost:8080/api/user/all
+Content-Type: application/json
+
+
+### get user by id
+GET http://localhost:8080/api/user/3
+Content-Type: application/json
